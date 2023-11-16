@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siva portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">Sivanesan R</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Mywork</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li onclick="closemenu()"><i class="fa-solid fa-xmark fas"></i></li>
+                </ul>
+                <li class="fas" onclick="openmenu()"><i class="fa-solid fa-bars"></i></li>
+            </nav>
+            <div class="header-text">
+                <p> <span class="sec-text"></span></p>
+                <h1>Hi, i'm <span>Sivanesan</span><br> from Trichy, Tamilnadu</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Aboutme.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="sub-content">I have been learning python and Django programming language for last 2 years and
+                        i have course completed ceritificate. I'm fresher but i have quite good knowledge
+                        in Python and Django Web framework. I have practiced and created some real web applications
+                        that applications link mentioned in this website mywork section.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Framework</span><p>Django</p></li>
+                            <li><span>Backend</span><p>Python, C, C++</p></li>
+                            <li><span>Frontend</span><p>HTML5, CSS3, Javascript, Bootstrap</p></li>
+                            <li><span>Database</span><p>MySQL, SQlite3</p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Team Leader (10-2022 to 08-2023)</span><p>Managing 10 to 15 members daily performance and
+                                activities. Leading the team with instruction as needed</p></li>
+                            <li><span>Senior QC Engineer (07-2018 to 10-2022)</span><p>Act as a Tester and evaluate
+                                a spatial data and converting XML format and finally send to the client end
+                            </p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E.,Mechanical Engineering (2017)</span><p style="font-weight: 600;">- 64.8%</p><p style="margin-top: -10px;">- University College of Engineering BIT-Campus Trichy.</p></li>
+                            <li><span>HSC (2013)</span><p style="font-weight: 600;">- 67%</p><p style="margin-top: -10px;">- Government Higher Secondary School Thuvakudi Trichy.</p></li>
+                            <li><span>SSLC (2011)</span><p style="font-weight: 600;">- 82%</p><p style="margin-top: -10px;">- Government Higher Secondary School Thuvakudi Trichy.</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Django Web Development</h2>
+                    <p>I'm responsible for creating and maintaining web application using the Django framework and Python code</p>
+                </div>
+                <div>
+                    <h2>Python Development</h2>
+                    <ul>
+                    <li>Develop Back-end components to improve responsiveness and overall performance</li>
+                    <li>Test and Debug programs</li>
+                    <li>Write effective, scalable code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <a href="https://sivabank.onrender.com/" target="_blank">
+                    <img src="images/bank.jpg" alt="">
+                    <div class="layer">
+                        <h3>Bank Management System</h3>
+                        <p>The Banking Management System is an Application for maintaining a person's account in a Bank</p>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                    </a>
+                </div>
+                <div class="work">
+                    <a href="https://sivashoping.onrender.com/" target="_blank">
+                    <img src="images/shopping.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping</h3>
+                        <p>A website that allows people to buy and sell physical goods, services, and digital products
+                            over the internet
+                        </p>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                    </a>
+                </div>
+                <div class="work">
+                    <img src="images/todo.jpg" alt="">
+                    <div class="layer">
+                        <h3>Todo List App</h3>
+                        <p>It's a list of tasks you need to complete or things that you want to do</p>
+                        <a href="https://todo-list-4zay.onrender.com" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="sub-title"><i class="fa-solid fa-address-card"></i> Contact Me</div>
+                    <p><i class="fa-solid fa-envelope"> </i> rmsiva9996@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"> </i> 7667882655</p>
+                    <a href="images/sivanesan_resume.pdf" download class="btn btn2 btn4"><i class="fa-solid fa-download"> </i> Download My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" id="message" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2 btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        var sidemenu = document.getElementById("sidemenu")
+        const text = document.querySelector(".sec-text");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        function openmenu(){
+            sidemenu.style.right = '0';
+        }
+        function closemenu(){
+            sidemenu.style.right = '-200px'
+        }
+        const textload = () =>{
+            setTimeout(()=>{
+                text.textContent = 'Django Website Developer';
+            },0);
+            setTimeout(()=>{
+                text.textContent = 'Python Developer';
+            },4000);
+        }
+        textload();
+        setInterval(textload,8000);
+    </script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "rmsiva9996@gmail.com",
+            Password : "siva@9996",
+            // SecureToken : "d3f8482d-cf5e-4028-b8a7-ceac77b4d075",
+            To : 'rmsiva9996@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "Portfolio Website Message",
+            Body : "And this is the body"
+            }).then(
+              message => alert(message)
+            );
+        }
+    </script> -->
+</body>
+</html>
