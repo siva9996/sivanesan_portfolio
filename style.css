@@ -152,6 +152,7 @@ nav ul li a:hover::after{
     text-indent: 50px;
     font-size: 18px;
     line-height: 30px;
+    text-align: justify;
 }
 .tab-titles{
     display: flex;
@@ -159,6 +160,7 @@ nav ul li a:hover::after{
 }
 .tab-titles p{
     font-size: 22px;
+    text-align: justify;
 }
 .tab-links{
     margin-right: 50px;
