@@ -361,7 +361,7 @@ nav .fas{
 }
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     #header{
-        background-image: url(images/mobile4.jpg);
+        background-image: url(images/mobile3.jpg);
     }
     .logo{
         text-decoration: none;
