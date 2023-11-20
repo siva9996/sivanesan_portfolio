@@ -362,7 +362,7 @@ nav .fas{
 }
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     #header{
-        background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/mobile5.jpg);
+        background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(mobile5.jpg);
         background-blend-mode: overlay;
     }
     .logo{
